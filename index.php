@@ -16,7 +16,7 @@ class Movie {
 	}
 
     public function setYear($year) {
-		if (is_numeric($year) && $year >= 0) {  //perche 'is_integer' non funziona?
+		if (is_numeric($year) && $year >= 0) {
 			$this->year = $year;
 		}
 		return $year;
